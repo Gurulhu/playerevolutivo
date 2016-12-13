@@ -6,15 +6,11 @@ O código tá feio, semana que vem eu arrumo.
 
 Antes de rodar:
 
--> Crie um .txt contendo os atalhos da sua pasta de músicas.
-
--->ls -R > musicas.txt
-
--->As músicas devem estar em pastas, com apenas um diretório de profundidade. (depois eu faço algo mais genérico)
-
--->Retire o cabeçalho de pastas
-
--->Formatação:
+1. Crie um .txt contendo os atalhos da sua pasta de músicas.
+  - ls -R > musicas.txt
+  - As músicas devem estar em pastas, com apenas um diretório de profundidade. (depois eu faço algo mais genérico)
+  - Retire o cabeçalho de pastas
+  - Formatação:
 
 ./Bored Generation:
 
@@ -43,29 +39,19 @@ Stromae - papaoutai.mp3
 Nelly - Ride Wit Me.mp3
 
 
--> Utilize o analyser.py para criar um relatório das suas musicas
+2. Utilize o analyser.py para criar um relatório das suas musicas
+  - python analyser.py <relatorio>
+  - Ele pega os metadados das musicas e organiza de forma legível ao player.
+  - Leva em torno de 7 a 8 segundos por musica, devido a analise de bpm
 
--->python analyser.py <relatorio>
-
--->Ele pega os metadados das musicas e organiza de forma legível ao player.
-
--->Leva em torno de 7 a 8 segundos por musica, devido a analise de bpm
-
-
-->Rode
-
--->python player.py report.txt
+3. Rode
+  - python player.py report.txt
 
 
 
 Comandos:
-
-p -> pausa
-
-s -> status do player
-
-f -> musicas no frame
-
-n -> proxima musica
-
-l -> trava o teclado (ctrl+c destrava no linux. não use no windows, foi feito pra testes, eu vou tirar isso depois.)
+- p -> pausa
+- s -> status do player
+- f -> musicas no frame
+- n -> proxima musica
+- l -> trava o teclado (ctrl+c destrava no linux. não use no windows, foi feito pra testes, eu vou tirar isso depois.)
