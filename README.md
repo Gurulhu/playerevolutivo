@@ -1,7 +1,7 @@
 Trabalho para a disciplina de Algoritmos Evolutivos.
 
 
-O código tá feio, semana que vem eu arrumo.
+*O código tá feio, semana que vem eu arrumo.*
 
 
 Antes de rodar:
@@ -11,33 +11,23 @@ Antes de rodar:
   - As músicas devem estar em pastas, com apenas um diretório de profundidade. (depois eu faço algo mais genérico)
   - Retire o cabeçalho de pastas
   - Formatação:
-
+```
 ./Bored Generation:
-
 NOFX - Drugs Are Good.mp3
 
-
 ./Born on the Blues:
-
 B.B. King - The Thrill Is Gone.mp3
 
-
 ./Bounce:
-
 Bon Jovi - Everyday.mp3
-
 Bon Jovi - Misunderstood.mp3
 
-
 ./Bravo Black Hits, Volume 29:
-
 Stromae - papaoutai.mp3
 
-
 ./Bravo Black Hits, Volume 5:
-
 Nelly - Ride Wit Me.mp3
-
+```
 
 2. Utilize o analyser.py para criar um relatório das suas musicas
   - python analyser.py <relatorio>
